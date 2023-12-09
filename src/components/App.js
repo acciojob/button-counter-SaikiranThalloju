@@ -6,7 +6,7 @@ import './../styles/App.css';
 const App = () => {
 
   
-  const [button,setButton] = useState(null);
+  const [button,setButton] = useState(0);
 
   function Increase (){
     setButton(button +1);
