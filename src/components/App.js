@@ -6,7 +6,7 @@ import './../styles/App.css';
 const App = () => {
 
   
-  const [button,setButton] = useState(0);
+  const [button,setButton] = useState(null);
 
   function Increase (){
     setButton(button +1);
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <h1>Button clicked {button} times</h1>
+        <p>Button clicked {button} times</p>
         <button onClick={Increase}>Click me</button>
 
 
